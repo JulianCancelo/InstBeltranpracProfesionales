@@ -1,3 +1,5 @@
+
+
 .header {
 
   padding: 10px 16px;
@@ -23,6 +25,24 @@ header {
 .content {
 
   padding: 16px;
+
+}
+
+
+
+.abajo {
+
+
+padding-bottom: 16px;
+
+
+}
+
+
+.container {
+
+
+padding-top: 60px;
 
 }
 
@@ -56,10 +76,39 @@ height: 50px;
 
 }
 
+.carrusel{
+
+width: 100%;
+
+
+
+
+}
+
+
+
+
+
+.presentacion {
+   width: 250px; /* I took the width from your post and placed it in css */
+   height: 250px;
+}
+
+.presentacion img {
+
+
+ height: 250px;
+  
+}
+
 
 body {
+
+
     margin: 0;            /* Reset default margin */
+
 }
+
 iframe {
     display: block;       /* iframes are inline by default */
     background: #fff;

@@ -9,8 +9,23 @@
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="estilo.css">
 
+
+
+
+<script type="text/javascript">
+window.onload = function(){
+   document.getElementById('enviar').onclick = function(e){
+       
+       
+   }
+}
+</script>
+
 </head>
 <body>
+
+
+
 
 
 
@@ -19,10 +34,10 @@
 <center><h1>Contactanos</h1></center>
 <hr></hr>
 
-<form class="row g-3">
+<form class="row g-3" method="get" role="form">
 <div class="mb-3">
   <label for="nombre" class="form-label">Nombre</label>
-  <input type="name" class="form-control" id="Nnombre" placeholder="Julian" required>
+  <input type="name" class="form-control" id="nombreContacto" placeholder="Julian" required>
   <label for="apellido" class="form-label">Apellido</label>
   <input type="surname" class="form-control" id="apellido" placeholder="Cancelo" required>
   <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
@@ -39,7 +54,7 @@
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"required></textarea>
 
 
- <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar Formulario</button>
+ <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >Enviar Formulario</button>
 
 
 
@@ -48,6 +63,11 @@
 
 <!-- Prueba modal-->
 <!-- Modal -->
+
+
+
+
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -60,11 +80,18 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" id="enviar" class="btn btn-primary" onclick ="" >Enviar</button>
       </div>
     </div>
   </div>
 </div>
+
+
+    
+
+
+
+
 
 <!-- Prueba modal-->
 
