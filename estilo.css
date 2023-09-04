@@ -1,0 +1,86 @@
+.header {
+
+  padding: 10px 16px;
+
+  background: #555;
+
+  color: #f1f1f1;
+  
+  position: fixed;
+
+}
+
+header {   
+
+    position: fixed;
+
+
+    top: 0; 
+
+}
+/* Page content */
+
+.content {
+
+  padding: 16px;
+
+}
+
+
+.sticky {
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%
+
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement */
+
+.sticky + .content {
+
+  padding-top: 102px;
+
+}
+
+img{
+
+height: 50px;
+
+
+
+
+
+}
+
+
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #fff;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+
+
+
+.mb-3 {
+
+   width: 50%;
+  background: whitesmoke;
+  margin: 0 auto;
+       
+            border: solid 1px orange
+        
+       
+
+
+
+
+}
