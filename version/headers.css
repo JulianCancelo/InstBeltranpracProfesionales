@@ -1,0 +1,55 @@
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+body {
+ background-color: #480000;
+
+ background-image: url(https://media.tenor.com/jA_m9JZ8-AEAAAAC/3d-printer.gif);
+ background-size: cover;
+backdrop-filter: blur(1000px);
+
+
+}
+
+footer {
+
+
+  background-color: whitesmoke;
+  color: black;
+}
+
+.myCarousel {
+
+background-color: white;
+
+
+}
+
+ .card img {
+
+
+ height: 300px;
+  width: 400px;
+}
+
+.imagen {
+
+height: 30px;
+width: 30px;
+
+
+}
+
