@@ -2,11 +2,15 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://unpkg.com/emodal@1.2.69/dist/eModal.min.js" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+ 
     <link rel="stylesheet" href="pies.css">
     <style>
       .bd-placeholder-img {
@@ -99,9 +103,19 @@
 
 
 
-  <title>Grana 3D - Trabajo Practico Prac.Profe. Alumno: Cancelo JUlian Manuel Comision 1° 1era TN</title>
+  <title>Grana 3D - Trabajo Practico Prac.Profe. Alumno: Cancelo Jlian Manuel Comision 1° 1era TN</title>
 </head>
 <body>
+
+
+
+<script >const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+}) </script>
+
 
    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 
@@ -126,9 +140,9 @@
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="#inicio" class="nav-link px-2 text-white">Inicio</a></li>
-          <li><a href=" #nosotros" target ="#nosotros" class="nav-link px-2 text-white">Sobre Nosotros</a></li>
+          <li><a href=" #nosotros"  class="nav-link px-2 text-white">Sobre Nosotros</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Tienda Online</a></li>
-          <li><a href="#contacto" class="nav-link px-2 text-white">Contacto</a></li>
+          <li><a href="#contacto" class="nav-link px-2 text-white" >Contacto</a></li>
           <li><button href="# "class="nav-link px-2 text-white" data-bs-target="#staticBackdrop">Redes Sociales</button></li>
         </ul>
 
@@ -137,7 +151,7 @@
         </form>
 
         <div class="text-end">
-          <button href="/login/index.html" type="button"  class="btn btn-outline-light me-2" >Iniciar Sesion</button>
+         <a class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#login">Iniciar Sesion</a>
           <button type="button" class="btn btn-warning">Registrarse</button>
 
         </div>
@@ -189,7 +203,7 @@
   <div class="card-body">
     <h5 class="card-title">Servicio de Impresion 3D</h5>
     <p class="card-text">Haciendo Click en el boton, te enviamos al formulario de contacto</p>
-    <a href="#contacto" class="btn btn-primary" target="#contacto">Contacto</a>
+    <a href="#contacto" class="btn btn-primary" >Contacto</a>
   </div>
 </div>
 
@@ -201,12 +215,33 @@
   <div class="card-body">
     <h5 class="card-title">Tienda Online</h5>
     <p class="card-text">Haciendo Click en el boton, podra encontrar nustros productos!</p>
-    <a href="#contacto" class="btn btn-primary" target="#tienda">Tienda</a>
+    <a href="#contacto" class="btn btn-primary" >Tienda</a>
   </div>
 </div>
     </div>
     <div class="col" id="ubicacionmapa">
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
 
@@ -231,7 +266,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Somos un pequeño emprendimiento dedicado a la fabricacion de distintos productos en 3D, de Manera Hogarena, industrial , entre otros..</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a type="button" class="btn btn-primary btn-lg px-4 gap-3"  href=" #inicio" target ="#inicio">Volver al principio</a>
+        <a type="button" class="btn btn-primary btn-lg px-4 gap-3"  href=" #inicio">Volver al principio</a>
         
       </div>
     </div>
@@ -293,8 +328,69 @@
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"required></textarea>
 
 
- <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >Enviar Formulario</button>
-<a type="button" class="btn btn-primary"  href= " #inicio" target ="#inicio">Volver al principio</a>
+ <a class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"  >Enviar Formulario</a>
+<a type="button" class="btn btn-primary"  href= " #inicio" >Volver al principio</a>
+
+
+
+
+
+
+
+
+
+<div class="modal " id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"><img src="img/cubo.png" width="100"  heigth ="100" class="d-inline-block align-text-top"></img>
+        <h1 class="modal-title fs-5" id="exampleModalLabel" ><p>Iniciar de Sesion</p></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label" required><p>Correo Electronico / Usuario</p></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Nunca compartiremos tus datos... <b> NUNCA! </b></div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label"><p>Contraseña</p></label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1"><p>Recordarme por 30 dias</p></label>
+  </div>
+  <center><video width="400" height="200" src= "video.mp4" controls ="autoplay"></video> </center>
+
+
+
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+       <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -304,6 +400,7 @@
     </div>
     <div class="col" id="ubicacionmapa">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3979609380845!2d-58.36562428827988!3d-34.66990426088446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33348525b8105%3A0x688c2224c9769fa1!2sInstituto%20Tecnol%C3%B3gico%20Beltr%C3%A1n!5e0!3m2!1ses-419!2sar!4v1694013611350!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </div>
 
 </datalist>
