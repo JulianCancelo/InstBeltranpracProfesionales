@@ -1,108 +1,100 @@
 .form-control-dark {
-  border-color: var(--bs-gray);
+     border-color: var(--bs-gray);
 }
-.form-control-dark:focus {
-  border-color: #fff;
-  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+ .form-control-dark:focus {
+     border-color: #fff;
+     box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
 }
-
-.text-small {
-  font-size: 85%;
+ .text-small {
+     font-size: 85%;
 }
-
-.dropdown-toggle:not(:focus) {
-  outline: 0;
+ .dropdown-toggle:not(:focus) {
+     outline: 0;
 }
-
-
-
-.carousel-caption {
-    position: absolute;
-    z-index: 1;
-    display:table;
-    width:100%;
-    height:100%;
+ .carousel-caption {
+     position: absolute;
+     z-index: 1;
+     display:table;
+     width:100%;
+     height:100%;
 }
-
-.absolute-div {
-    position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+ .absolute-div {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
 }
-
-.carousel-caption h3 {
-    display:table-cell;
-    vertical-align: middle;
-    text-align:center;
-    
+ .carousel-caption h3 {
+     display:table-cell;
+     vertical-align: middle;
+     text-align:center;
 }
-
-.item {
-    position:relative;
+ .item {
+     position:relative;
 }
-
-body {
- background-color: #480000;
-
- background-image: url(https://media.tenor.com/jA_m9JZ8-AEAAAAC/3d-printer.gif);
- background-size: cover;
-backdrop-filter: blur(1000px);
-https://che3d.com.ar/wp-content/uploads/2023/08/portada-home_1-1.mp4
-
+ body {
+     background-color: #480000;
+     background-image: url(https://media.tenor.com/jA_m9JZ8-AEAAAAC/3d-printer.gif);
+     background-size: cover;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5.5px);
+     -webkit-backdrop-filter: blur(5.5px);
+     border: 1px solid rgba(255, 255, 255, 0.81);
 }
-
-footer {
-
-
-  background-color: whitesmoke;
-  color: black;
+ #datos p {
+     color: whitesmoke;
 }
-
-.myCarousel {
-
-background-color: white;
-
-
+ #piedepagina {
+     background-color: whitesmoke;
+     color: black;
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5.5px);
+     -webkit-backdrop-filter: blur(5.5px);
+     border: 1px solid rgba(255, 255, 255, 0.81);
 }
-
+ #tienda {
+     background-color: whitesmoke;
+     background-size: cover;
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5.5px);
+     -webkit-backdrop-filter: blur(5.5px);
+     border: 1px solid rgba(255, 255, 255, 0.81);
+}
+ .myCarousel {
+     background-color: white;
+}
  .card img {
-
-
- height: 300px;
-  width: 400px;
+     height: 300px;
+     width: 400px;
+}
+ .imagen {
+     height: 30px;
+     width: 30px;
+}
+ p {
+     color: #000000;
+}
+ #nosotros{
+     background-color: grey;
+     background: rgba(255, 255, 255, 0.19);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5.5px);
+     -webkit-backdrop-filter: blur(5.5px);
+     border: 1px solid rgba(255, 255, 255, 0.81);
 }
 
-.imagen {
+/*
+header{
 
-height: 30px;
-width: 30px;
-
-
+ border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5.5px);
+     -webkit-backdrop-filter: blur(5.5px);
+     border: 1px solid rgba(255, 255, 255, 0.81);
 }
-
-
-p {
-
-color: #000000;
-
-}
-
-.whatsapp {
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  z-index:100;
-}
-
-.whatsapp-icon {
-  margin-top:13px;
-}
+ /* a tener en cuenta https://www.cleancss.com/css-beautify/
+ /* otra pagina cual me ayudo con unos temas de ccs : css.glas
